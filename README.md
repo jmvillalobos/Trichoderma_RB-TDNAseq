@@ -25,7 +25,7 @@ This project aims to analyze genetic data from *Trichoderma atroviride* using **
 
 ## 👐 Fuente de los scripts usados
 
-Los scripts utilizados para realizar el analisis de RB-TDNAseq y conteo de barcodes y gene fitness se basan en los desarrollados por Samuel Coradetti.
+The scripts used to perform the RB-TDNAseq analysis, barcode counting, and gene fitness calculation are based on those developed by Samuel Coradetti.
 
 --LICENSE--
 Copyright (C) 2019 Samuel Coradetti and the United States Department of Energy. All rights reserved.
@@ -36,7 +36,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-[Link to the Github]([https://www.ejemplo.com](https://github.com/stcoradetti/RBseq))
+Link de Github-Coradetti ([https://www.ejemplo.com](https://github.com/stcoradetti/RBseq))
 ---
 
 ## 🔥 Installation
