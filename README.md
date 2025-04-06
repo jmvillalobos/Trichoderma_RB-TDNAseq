@@ -7,10 +7,15 @@ This repository contains the **Python and R code** used for the analysis of **TD
 
 ## 📌 Overview
 This project aims to analyze genetic data from *Trichoderma atroviride* using **TDNAseq** and **BarSeq** techniques. The repository includes:
-- Data preprocessing scripts (Trimmomatic, FastQC)
-- Read alignment and counting (Bowtie2, HTSeq)
-- Statistical analysis (edgeR, DESeq2)
-- Visualization tools (ggplot2, matplotlib)
+- Mapping of reads to the genome.
+
+- Annotation of regions containing insertions.
+
+- Counting of barcodes inserted into the genome.
+
+- Calculate the fitness associated with each gene.
+
+- Smear plots of the fitness comparison in R.
 
 ---
 
