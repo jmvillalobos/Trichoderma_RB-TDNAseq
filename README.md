@@ -188,7 +188,7 @@ fastqSummaryStats.txt: Summary statistics for each fastq file (e.g., total reads
 This script estimates the sequencing error rate based on barcode frequencies and provides a Chao (1987) estimator for the true diversity of barcode sequences. It is especially useful in low-depth datasets.
 
 
-### 🧬 RBseq_Calculate_Fitness.py 
+### RBseq_Calculate_Fitness.py 
 This script calculates gene fitness scores from transposon barcode data generated with RBseq_Count_Barcodes.py. It outputs fitness values per gene and statistical tests (T-like stats, Wilcoxon) to help identify genes important under specific conditions.
 
 **Basic usage**
@@ -202,7 +202,8 @@ python RBseq_Calculate_Fitness.py -m fitness_metadata.txt --normLocal 200 --minI
 
 
 **Required input**
--m Metadata file: defines each condition, sample, reference, and associated pool count file (from previous step).
+
+-m Metadata file: defines each condition, sample, reference, and associated pool count file (from the previous step).
 
 Pool count files: from RBseq_Count_Barcodes.py.
 
