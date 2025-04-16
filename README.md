@@ -185,7 +185,73 @@ countsFiles/: A directory with raw barcode counts per fastq file, including unma
 
 fastqSummaryStats.txt: Summary statistics for each fastq file (e.g., total reads, reads with valid barcodes, Chao diversity estimate).
 
-This script estimates the sequencing error rate based on barcode frequencies and provides a Chao (1987) estimator for the true diversity of barcode sequences, especially useful in low-depth datasets.
+This script estimates the sequencing error rate based on barcode frequencies and provides a Chao (1987) estimator for the true diversity of barcode sequences. It is especially useful in low-depth datasets.
+
+
+### 🧬 RBseq_Calculate_Fitness.py 
+This script calculates gene fitness scores from transposon barcode data generated with RBseq_Count_Barcodes.py. It outputs fitness values per gene and statistical tests (T-like stats, Wilcoxon) to help identify genes important under specific conditions.
+
+**Basic usage**
+```bash
+python RBseq_Calculate_Fitness.py -m fitness_metadata.txt
+```
+You can add useful options, in our case, because we don´t have a saturate library, we used the parameter minIsertions=1, but you can put even three or more (3 is the default value):
+```bash
+python RBseq_Calculate_Fitness.py -m fitness_metadata.txt --normLocal 200 --minInsertions 1 --fitnessBrowserOutput
+```
+
+
+**Required input**
+-m Metadata file: defines each condition, sample, reference, and associated pool count file (from previous step).
+
+Pool count files: from RBseq_Count_Barcodes.py.
+
+Minimal metadata columns:
+
+Condition, Sample, Reference, Paired, OutputDir, PoolCountFile
+
+Optional for browser output: SetName, Group, Date, short, etc.
+
+**Key options (optional)**
+--normLocal 200: Normalize fitness using local genomic windows (to reduce positional bias).
+
+--minInsertionCounts: Min reads per insertion (default = 3).
+
+--minGeneCounts: Min total reads per gene (default = 20).
+
+--minInsertions: Min insertions per gene (default = 3).
+
+--noPseudoCounts: Disable pseudo-counts (can make results more stringent).
+
+--fitnessBrowserOutput: Generate files compatible with LBNL Fitness Browser.
+
+**Output files (in OutputDir/)**
+geneFit.txt: Fitness per gene (average across replicates)
+
+Tstats.txt / pVals.txt: T-like stats and corrected p-values
+
+pVals_Wilcoxon.txt: Conservative non-parametric test
+
+strainFit.txt: Fitness score per insertion
+
+specificPhenotypes.txt: Genes with high fitness effect
+
+qualityStats.txt: Summary QC metrics per condition
+
+QCplots/: Diagnostic plots for each condition:
+
+Fitness vs position
+
+Correlation between gene halves
+
+GC correlation
+
+QQ-plots of T-stats
+
+## More details?
+See full documentation and updates at the original repository:
+🔗 https://bitbucket.org/berkeleylab/feba
+
 
 
 
