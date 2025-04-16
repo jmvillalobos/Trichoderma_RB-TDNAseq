@@ -103,4 +103,37 @@ Log files with detailed processing information.
 
 **See the metadata folder for custom metadata examples.**
 
+### RBseq_Annotate_Insertions.py
+This script takes the mapped insertions and annotates them using a GFF file of gene features. It identifies whether insertions fall within coding regions, promoters, or intergenic areas. It also computes several summary statistics to assess biases in insertion site distribution (e.g., GC content, genome features, and scaffold coverage).
+
+Inputs:
+A metadata file similar to the one used in RBseq_Map_Insertions.py, pointing to poolfile locations, gene feature files (GeneLocations), and optional annotation mappings (GeneAnnotations).
+
+You can also specify --promoterLength and --terminatorLength to define gene boundaries.
+
+Example usage:
+```bash
+python RBseq_Annotate_Insertions.py --metafile metadata/my_experiment.tsv
+```
+Key Outputs:
+POOL_poolfile_annotated:
+Annotated poolfile including the nearest gene to each insertion and the genomic context (e.g., promoter, exon, intergenic).
+
+POOL_poolfile_GChistogram.pdf:
+Histogram showing GC content around insertion sites vs. the overall genome. Helps detect GC bias in insertions.
+
+POOL_poolfile_insertionDistribution.pdf:
+Graph showing insertion frequency across promoters, exons, and other features relative to their genome proportion. Useful to detect feature-specific insertion biases.
+
+POOL_poolfile_insertionDistribution.txt:
+Raw data used to build the insertion distribution graph.
+
+POOL_poolfile_InsertsPerScaffold.pdf:
+Scatterplot comparing number of insertions per scaffold to scaffold size. Helps identify issues in assembly or mapping bias.
+
+POOL_poolfile_LargestScaffold.pdf:
+Rolling window graph (1,000 bp) of insertion density across the largest scaffold. Compares actual insertion rates to a predicted "random" distribution model. Useful to check for uniformity and detect potential hot-spots or cold regions.
+
+
+
 
