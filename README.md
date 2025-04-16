@@ -259,6 +259,23 @@ See full documentation and updates at the original repository:
 🔗 https://bitbucket.org/berkeleylab/feba
 
 
+# 📊 R Analysis
+We use R and the ggplot2 package to visualize genetic fitness data. If you don't have ggplot2 installed, you can install it in an R session with:
 
+```r
+install.packages("ggplot2")
+```
+### Description
+The R scripts used for plotting are located in the scripts_R directory.
+
+We calculate the mean genetic fitness across three biological replicates for each experimental condition. Using ggplot2, we generate scatterplots that compare two conditions to identify the most contrasting fitness profiles.
+
+In each scatterplot, the red dots represent genes whose fitness significantly changes when compared to the reference condition.
+
+For **carbon source comparisons** (e.g., fructose vs. xylose), the reference condition is glucose.
+
+For **nitrogen source comparisons**, the reference is minimal medium supplemented with the 20 essential amino acids (Dropout mix).
+
+These visualizations help to highlight condition-specific gene fitness effects.
 
 
