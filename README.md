@@ -20,7 +20,7 @@ This project aims to analyze genetic data from *Trichoderma atroviride* using **
 ---
 
 ## 📁 Repository Structure
-├── Source
+├── Source             # Original GitHub from **Samuel Coradetti**
 └── LICENSE            # License file  
 ├── environment.yml    # Conda environment file  
 ├── scripts/           # Python and R scripts for analysis  
