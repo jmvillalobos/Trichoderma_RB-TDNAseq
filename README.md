@@ -1,4 +1,4 @@
-# 🌱 TDNAseq and BarSeq Analysis in *Trichoderma atroviride*  
+# 🍄 TDNAseq and BarSeq Analysis in the filamentous fungus *Trichoderma atroviride*  
 [![Python](https://img.shields.io/badge/Python-3.7+-blue)](https://www.python.org/) [![R](https://img.shields.io/badge/R-4.0+-blue)](https://www.r-project.org/) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 This repository contains the Python and R code used to analyze TDNAseq and BarSeq data in Trichoderma atroviride.
