@@ -79,4 +79,28 @@ To create the same environment on another machine or share it with collaborators
 conda env create -f tnseq.yml
 conda activate rbtdnaseq_env
 ```
+## 🧪 Script Descriptions for RB-TDNAseq analysis
+Each script requires a metadata file passed with the -m or --metafile flag. Our metadata files are customized and stored in the metadata directory. **For full details on parameters and file formats, refer to the original repo: stcoradetti/TnSeq-pipeline.**
+
+### RBseq_Map_Insertions.py
+This script maps insertion reads from TnSeq experiments to a reference genome using BLAST. It processes barcode structures, identifies junction sequences, filters ambiguous insertions, and creates a dataset of uniquely mapped mutants for downstream analysis.
+
+Inputs:
+A metadata file with sample information, read models, insertion sequence details, genome BLAST database path, and annotation files.
+
+Example usage:
+```bash
+python RBseq_Map_Insertions.py --metafile metadata/my_experiment.tsv
+```
+Key Outputs:
+POOL_poolfile: Mapped, unambiguous insertions.
+
+POOL_poolfile_ambiguous: Barcodes with multiple possible mappings.
+
+TNSEQ_FILE_blastGenome.txt: Raw BLAST hits against the genome.
+
+Log files with detailed processing information.
+
+**See the metadata folder for custom metadata examples.**
+
 
