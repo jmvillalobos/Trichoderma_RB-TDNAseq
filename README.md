@@ -20,10 +20,10 @@ This project aims to analyze genetic data from *Trichoderma atroviride* using **
 ---
 
 ## 📁 Repository Structure
-├── environment.yml # Conda environment file 
-     └── LICENSE # License file
-├── scripts/ # Python and R scripts for analysis
-├── results/ # Output figures and statistical results 
+├── environment.yml # Conda environment file /n
+     └── LICENSE # License file /n
+├── scripts/ # Python and R scripts for analysis /n
+├── results/ # Output figures and statistical results /n
 ├── README.md # Project documentation 
 
 
