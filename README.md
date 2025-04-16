@@ -41,7 +41,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-Link to Coradetti-Github ([https://www.ejemplo.com](https://github.com/stcoradetti/RBseq))
+Link to Coradetti-Github ([https://www.github.com](https://github.com/stcoradetti/RBseq))
 ---
 
 
