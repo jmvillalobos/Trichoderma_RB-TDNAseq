@@ -279,3 +279,6 @@ For **nitrogen source comparisons**, the reference is minimal medium supplemente
 These visualizations help to highlight condition-specific gene fitness effects.
 
 
+<img width="432" alt="Screenshot 2025-04-16 at 2 46 23 p m" src="https://github.com/user-attachments/assets/8b54199b-d3b9-4b8e-8ec9-4c1a938d8a7f" />
+
+
