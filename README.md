@@ -48,19 +48,15 @@ Anaconda or Miniconda installed
 
 # 📦 Step-by-Step Installation
 1. Create the environment
-bash
-Copiar
-Editar
+```bash
 conda create -n rbtdnaseq_env python=3.7.6
-2. Activate the environment
-bash
-Copiar
-Editar
+```
+3. Activate the environment
+```bash
 conda activate rbtdnaseq_env
-3. Install required packages
-bash
-Copiar
-Editar
+```
+4. Install required packages
+```bash
 conda install -c defaults -c conda-forge -c bioconda \
   biopython=1.76 \
   numpy=1.18.5 \
@@ -69,21 +65,18 @@ conda install -c defaults -c conda-forge -c bioconda \
   matplotlib=3.2.2 \
   statsmodels=0.11.1 \
   blast=2.2.30
-4. Export the environment (optional but recommended)
+```
+5. Export the environment (optional but recommended)
 After installing everything, export the environment to a YAML file to ensure reproducibility:
-
-bash
-Copiar
-Editar
+```bash
 conda env export > tnseq.yml
-You can version this tnseq.yml file along with your repository so others can recreate the exact environment.
+```
+You can version this tnseq.yml file with your repository so others can recreate the exact environment.
 
 🚀 Recreating the Environment from tnseq.yml
 To create the same environment on another machine or share it with collaborators:
-
-bash
-Copiar
-Editar
+```bash
 conda env create -f tnseq.yml
 conda activate rbtdnaseq_env
+```
 
