@@ -1,0 +1,17 @@
+Sample	Reference	Paired	Condition	Experiment	OutputDir	PoolCountFile	Person	Date	Mutant Library	Media	Format	Temperature	pH	Shaking	StartOD	EndOD	Hours	Notes	SetName	Group	Index	short	Condition_1
+DropoutMix1	PDBC1	TRUE	DropoutMix1	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	DropoutMix1	DropoutMix1	DropoutMix1
+DropoutMix2	PDBC1	TRUE	DropoutMix2	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	DropoutMix2	DropoutMix2	DropoutMix2
+DropoutMix3	PDBC1	TRUE	DropoutMix3	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	DropoutMix3	DropoutMix3	DropoutMix3
+minusCysteine1	PDBC1	TRUE	minusCysteine1	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	minusCysteine1	minusCysteine1	minusCysteine1
+minusCysteine2	PDBC1	TRUE	minusCysteine2	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	minusCysteine2	minusCysteine2	minusCysteine2
+minusCysteine3	PDBC1	TRUE	minusCysteine3	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	minusCysteine3	minusCysteine3	minusCysteine3
+MMV1	PDBC1	TRUE	MMV1	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	MMV1	MMV1	MMV1
+MMV2	PDBC1	TRUE	MMV2	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	MMV2	MMV2	MMV2
+MMV3	PDBC1	TRUE	MMV3	carbon	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacid2/	/Users/manuelvillalobos/Documents/BarSeq2025/cuantificacion_BarSeqs/aminoacids/Counts/poolCount.txt	Manuel Villalobos	25/03/25	Tricho	MM Vogels  glucose 	plate	28	5.5	250 RPM	0.1	~5	20		setA	aminoacids	MMV3	MMV3	MMV3
+																							
+																							
+																							
+																							
+																							
+																							
+																							
